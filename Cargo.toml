@@ -1,0 +1,12 @@
+[package]
+name = "phishurl-parser"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusqlite = { version= "0.28.0", features = ["chrono", "backup"] }
+chrono = { version = "0.4.22" }
+csv = "1.1.6"
+url = "2.3.1"
